@@ -17,9 +17,9 @@ hero:{ id:'hero',css:'col-1-1',data:[
 },
 
 about:{ id:'about', css:'col-1-3', data:[
-{id:1,nama:'BASIC',icon:'facebook',isi:'facebook'},
-{id:1,nama:'PRO',icon:'twitter',isi:'twitter'},
-{id:1,nama:'PERFORMANCE',icon:'whatsapp',isi:'whatsapp'},
+{id:1,nama:'Facebook',icon:'facebook',isi:'facebook'},
+{id:1,nama:'twitter',icon:'twitter',isi:'twitter'},
+{id:1,nama:'wharsapp',icon:'whatsapp',isi:'whatsapp'},
 ],
 },
 
