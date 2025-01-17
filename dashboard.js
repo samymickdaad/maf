@@ -17,9 +17,9 @@ hero:{ id:'hero',css:'col-1-1',data:[
 },
 
 about:{ id:'about', css:'col-1-3', data:[
-{id:1,nama:'Facebook',icon:'facebook',isi:'facebook'},
-{id:1,nama:'twitter',icon:'twitter',isi:'twitter'},
-{id:1,nama:'wharsapp',icon:'whatsapp',isi:'whatsapp'},
+{id:1,nama:'BASIC',icon:'facebook',isi:'facebook'},
+{id:1,nama:'PRO',icon:'twitter',isi:'twitter'},
+{id:1,nama:'PERFORMANCE',icon:'whatsapp',isi:'whatsapp'},
 ],
 },
 
@@ -249,8 +249,6 @@ return out;
 
 about:function(arr){
 var {css,data}=web.model.about;
-
-
 out=`<div class="row center artikel">
 <div class="center">
 <b>About <br> <b> </b></b>
@@ -261,8 +259,8 @@ out=`<div class="row center artikel">
 for(i in data){ val=data[i]
 out+=`
 
-<div class="col-1-3 ">
-<div class="artikel ">
+<div class="col-1-3 center">
+<div class="artikel">
 
 <p>${svg.icon(val.icon)}</p>
 <b>${val.nama}</b>
@@ -273,7 +271,9 @@ out+=`
 `;
 }
 out+=`</div>`;
-return out;},
+return out;
+
+},
 
 services:function(arr){
 var {css,data}=web.model.services;
@@ -344,14 +344,14 @@ for(i in data){ val=data[i]
 out+=`
 
 <div class="row">
-<div class="col-1-2">
+<div class="col-1-2 center">
 <div class="center float-right artikel" >`;
 if(val.img){ out+=this.img(); } else {out+=this.des();}
 
 out+=`
 </div>
 </div>
-<div class="col-1-2">
+<div class="col-1-2 center">
 <div class="center float-left artikel"   >`;
 if(val.img){ out+=this.des(); } else {out+=this.img();}
 out+=`</div></div></div>`;
@@ -420,7 +420,7 @@ controller:{
     this.pricing();
 
     // this.footer();
-    
+
     // this.faq();
     // this.team();
     // this.call();

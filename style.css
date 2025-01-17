@@ -42,7 +42,7 @@
  background-attachment: fixed;
  /* background-image: url('img/Cloudy.svg'); */
  /* background-image: url('img/bg-01.png'); */
- background-image: url('img/students.svg');
+ background-image: url('img/Students.svg');
 
  background-color: #bfdfec;
  /* animation: movement 50s linear infinite; */
@@ -258,7 +258,7 @@ background-color:white;
 
 
 
-.center{ text-align: center;}
+.center{ text-align: center; display: table;}
 
 
 .posts img {
@@ -378,7 +378,13 @@ figure img {
 
 
 
-.artikel{ padding: 20px; display: table; table-layout: fixed; }
+/* .artikel{ padding: 20px; display: table; table-layout: fixed;  } */
+.artikel{ display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+ }
+
+
 .figure{ filter: drop-shadow(5px 5px 5px #222); }
 
 
