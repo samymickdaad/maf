@@ -10,7 +10,7 @@ data:{email:'sa',pin:'123'},
 profile:{
 id:'profile',
 avatar:['man',2],
-username:'Wawan',
+username:'Dor',
 input:{data:{email:'',pin:''},tipe:[ {id:"pin",nama:"password",arr:'1,2'},],},
 button:{data:[
 {id:1,nama:"Signout",icon:"person",url:"users.controller.signout()"},
