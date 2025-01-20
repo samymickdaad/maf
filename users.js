@@ -51,7 +51,7 @@ avt=avatar.view.svg(avatar.view.man(avatar.model.man[2]));
   <div id="profile" class="row shadow">
   <div id="profile" class="col-1-3">
   <div id="avt" class="user-avatar img"> ${avt} </div>
-  <span class="username" >Welcome, ${arr.Dor}</span>
+  <span class="username" >Welcome, ${arr."username"}</span>
   <div class=""> ${d.view.input(arr.input)} </div>
   <div class=""> ${d.view.button(arr.button)} </div>
   </div>
